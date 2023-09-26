@@ -1,0 +1,84 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .vehicle{
+                margin-right: 240px;
+                transition:margin-left 4s ;
+            }
+           .vehicle:hover{
+                margin-left: 240px;
+                transition: margin-left 4s;
+            
+            
+            
+            }
+            .width:hover{
+                transition-duration: 10s;
+                width: 300px;
+                transition-property: width;
+                
+            }
+            .height:hover{
+                transition-duration: 10s;
+                height:300px;
+
+            }
+            .ball:hover{
+                transform: rotate(300deg);
+            
+                transition:transform 5s;
+
+            }
+            .skew:hover{
+                transform: skew(360deg);
+                transition: transform 5s;
+            }
+            img:hover{
+                width:400px ;
+                height: 400px;
+            }
+            
+            .kcr{
+                background-color: gold;
+                padding: 50px;
+            }
+            .kcr:hover{
+                background-color:darkmagenta;
+            }
+            
+            
+        
+        </style>
+    </head>
+    <body><h2>vehicles transition</h2>
+        
+        <img class="vehicle" src="./cycle2.jpeg"height="200" width="200"><br>
+        <img class="vehicle" src="./rx.jpeg"><br>
+        <img  class="vehicle"src="./thras.jpeg"><br>
+        
+        <h2>width increasing transistion</h2> 
+    
+            <img  src="./black car.png" width="100" class="width"><hr>
+
+        
+        <h2>height incresing trnsition</h2>
+            <img src="./pngimg.com - eiffel_tower_PNG6.png" height="100px" class="height"><hr>
+            <h2>Transforms</h2><p>360deg rotation</p>
+            <div>
+                <img src="./ball.png" height="200px" class="ball"><hr>
+            </div>
+            <p>skew</p>
+            <div>
+                <img src="./Facebook_logo_(square).png" height="100px" width="100px" class="skew"><hr>
+            </div>
+            background image chaning
+            <div class="kcr">
+                <img src="./kcr-12.jpg" height="200px" width="200px">
+            </div>
+        
+    </body>
+    </html>
